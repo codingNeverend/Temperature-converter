@@ -8,6 +8,13 @@ celsiusTemperature.addEventListener('keyup', () => {
     console.log(numCelsiusTemperature);
     if((!isNaN(numCelsiusTemperature) && numCelsiusTemperature!=='')) {
         farenheitTemperature.value = (numCelsiusTemperature*1.8)+32;
+        if (numCelsiusTemperature > 30) {
+         document.body.style.background = "linear-gradient(to right, rgb(233, 224, 174), rgb(230, 107, 96))";
+        }
+        else
+        {
+            document.body.style.background = "linear-gradient(to right, rgb(174, 174, 233), rgb(96, 163, 230))";
+        }
     }
     else {
         farenheitTemperature.value = '';
@@ -20,6 +27,13 @@ farenheitTemperature.addEventListener('keyup', () => {
     if((!isNaN(numFarenheitTemperature) && numFarenheitTemperature!=='')) {
         console.log('c\'est un nombre');
         celsiusTemperature.value = Math.round(((numFarenheitTemperature-32)/1.8)*100)/100;
+        if (numFarenheitTemperature > 86) {
+            document.body.style.background = "linear-gradient(to right, rgb(233, 224, 174), rgb(230, 107, 96))";
+           }
+           else
+           {
+               document.body.style.background = "linear-gradient(to right, rgb(174, 174, 233), rgb(96, 163, 230))";
+           }
     }
     else {
         console.log('pas un nombre');

@@ -6,7 +6,15 @@ body{
 }
 
 #container{
-    background-color:rgb(255, 216, 137);
+    /* background-color:rgb(255, 216, 137);
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px grey; */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     margin : 0px auto;
     /* display: inline-block; */
     width: 24%;
@@ -14,8 +22,8 @@ body{
     padding: 20px;
     transform: translateY(-50%);
     margin-top: 50vh;
-    box-shadow: 2px 2px 3px grey;
-    border-radius: 10px;
+    
+    
 }
 
 label
