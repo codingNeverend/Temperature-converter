@@ -1,0 +1,52 @@
+body{
+    background-color: blanchedalmond;
+    background: linear-gradient(to right, rgb(174, 174, 233), rgb(96, 163, 230));
+    font-family: 'Century Gothic', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+
+#container{
+    background-color:rgb(255, 216, 137);
+    margin : 0px auto;
+    /* display: inline-block; */
+    width: 24%;
+    height: 200px;
+    padding: 20px;
+    transform: translateY(-50%);
+    margin-top: 50vh;
+    box-shadow: 2px 2px 3px grey;
+    border-radius: 10px;
+}
+
+label
+{
+    display:block; 
+    width:180px; /* Attention : prenez une largeur suffisamment grande */
+    float:left;
+}
+
+input{
+    box-sizing: border-box;
+    -webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+    border-radius: 8px;
+    height: 50px;
+    font-size: 24px;
+}
+
+input:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+
+input:hover{
+    background: #85cfe2;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
