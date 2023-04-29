@@ -5,5 +5,5 @@ A simple temperature converter.
 It allows to convert degrees celsius into farheineit and vice versa.
 
 Test it 
-[here](https://www.google.com)
+[here](https://codingneverend.github.io/Temperature-converter/)
          !
